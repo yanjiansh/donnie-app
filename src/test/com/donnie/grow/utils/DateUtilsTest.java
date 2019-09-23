@@ -47,6 +47,7 @@ public class DateUtilsTest {
         Date d3 = DateUtils.parse("2019-05-08 10:22:33", DateUtils.DEFAULT_FORMAT);
         Assert.assertEquals(DateUtils.addMinutes(d1, 60), d2);
         Assert.assertEquals(DateUtils.addMinutes(d1, -60), d3);
+
     }
 
 
