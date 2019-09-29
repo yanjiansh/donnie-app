@@ -6,12 +6,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
-public class ValidParentheses {
+public class ValidParentheses_20 {
 
     public List<Character> leftList = Arrays.asList('(', '{', '[');
     public List<Character> rightList = Arrays.asList(')', '}', ']');
 
-    public ValidParentheses() {
+    public ValidParentheses_20() {
     }
 
     public boolean isValid (String s) {
