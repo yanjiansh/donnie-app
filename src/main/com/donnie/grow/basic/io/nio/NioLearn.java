@@ -1,6 +1,5 @@
-package com.donnie.grow.nio;
+package com.donnie.grow.basic.io.nio;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;

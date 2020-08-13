@@ -26,6 +26,7 @@ public class ConsumerSample {
             ConsumerRecords<String, String> records = consumer.poll(100);
             for ( ConsumerRecord<String, String> record : records) {
                 System.out.println(String.format("Consume Msg, topic[%s],offset[%s],value[%s]", record.topic(), record.offset(), record.value()));
+                consumer.commitSync();
             }
         }
     }

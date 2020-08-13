@@ -1,4 +1,4 @@
-package com.donnie.grow.proxy;
+package com.donnie.grow.basic.proxy;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
